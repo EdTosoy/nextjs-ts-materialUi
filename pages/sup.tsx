@@ -20,7 +20,7 @@ const Sup: FC<SupProps> = ({ message }: SupProps) => {
   return (
     <div className={styles.container}>
       <button type="button">I am so boring!</button>
-      <Button color={'primary.light'} variant="contained">
+      <Button className={classes.root} variant="contained">
         {message}
       </Button>
     </div>
